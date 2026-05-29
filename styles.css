@@ -267,6 +267,7 @@ h3 { font-size: clamp(21px, 2.2vw, 27px); font-weight: 600; color: var(--cream);
     var(--bg-warm);
   display: grid; place-items: center; min-height: 420px;
 }
+.imgph img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .imgph .tag { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12.5px; color: var(--muted); letter-spacing: .05em; padding: 7px 13px; border: 1px dashed var(--line); border-radius: 7px; background: rgba(45,31,20,0.5); }
 
 /* ============================================================
